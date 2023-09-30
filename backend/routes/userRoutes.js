@@ -1,5 +1,6 @@
 import express from "express";
 const router = express.Router();
+import protect from "../middleware/authMiddleware.js";
 import {
     loginUser,
     logoutUser,
@@ -11,8 +12,8 @@ import {
 
 router.post('/login', loginUser);
 router.post('/logout', logoutUser);
-router.get('/profile', getUserProfile);
-router.put('/profile', updateUserProfile);
+router.get('/profile', protect, getUserProfile);
+router.put('/profile', protect, updateUserProfile);
 router.post('/register', registerUser);
 
 
