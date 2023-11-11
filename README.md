@@ -14,7 +14,7 @@ This includes:
 - Install LTS version of Node.js - [Node.js](https://nodejs.org/en/)
 - Create a database in MongoDB Atlas and obtain `MongoDB URI` - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
 
-### Env Variables
+### Environment Variables
 
 Rename the `.env-example` file to `.env` and add the following
 
