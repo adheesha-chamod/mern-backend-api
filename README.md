@@ -35,6 +35,8 @@ npm install
 
 ### Run Server
 
+Open the terminal in root and execute the following command
+
 ```
 npm run server
 ```
