@@ -1,4 +1,7 @@
 .idea
-note.txt
+
 node_modules
+
 .env
+
+paskage-lock.json
