@@ -1,7 +1,7 @@
 {
-  "name": "mern-app",
+  "name": "mern-auth-api",
   "version": "1.0.0",
-  "description": "Simple web app using MERN stack",
+  "description": "Simple api using MERN stack",
   "type": "module",
   "main": "index.js",
   "scripts": {
