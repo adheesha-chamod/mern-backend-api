@@ -1,9 +1,0 @@
-in root:
-
-npm init -y
-
-npm i express dotenv mongoose bcryptjs jsonwebtoken cookie-parser
-npm i -D nodemon
-npm i express-async-handler
-
-npm run server
